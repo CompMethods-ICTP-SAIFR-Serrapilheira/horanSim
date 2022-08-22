@@ -1,5 +1,5 @@
 ---
-  title: "Report: Simulation of Moran's model"
+title: "Report: Simulation of Moran's model"
 author: "Lucas Alves de Melo Pontes"
 date: "8/21/2022"
 output: html_document
@@ -8,17 +8,15 @@ biblio-style: "apalike"
 link-citations: true
 ---
 
-  ```{r setup, include=FALSE}
+```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-::: {style="text-align: justify"}
-
 # Introduction 
 
-The Moran's process is a simple stochastic model to conceptualize how mutant populations can be fixed in a population. The model was conceptualized by the statistician Patrick Moran (@moran_1958).
+The Moran's process is a simple stochastic model to conceptualize how mutant populations can be fixed in a population. The model was conceptualized by the statistician Patrick @moran_1958.
 
-The model assume that the total population size is constant, with fluctuations only for the number of mutant and non-mutant populations. The population is assumed as well-mixed. The initial population sizes of mutants and non-mutants can be changed. It is possible to design models in which the relative fitness increase the probability of reproduction, or decrease the probability of death. The utilized model in this repository follows the first option, as described by Martin Nowak (@Nowak_06).
+The model assume that the total population size is constant, with fluctuations only for the number of mutant and non-mutant populations. The population is assumed as well-mixed. The initial population sizes of mutants and non-mutants can be changed. It is possible to design models in which the relative fitness increase the probability of reproduction, or decrease the probability of death. The utilized model in this repository follows the first option, as described by Martin @Nowak_06.
 
 
 Each iteration substitute concomitantly a random cell (the "eliminated") by another copy of a random cell (the "reproduced") . For each iteration, three options are possible:

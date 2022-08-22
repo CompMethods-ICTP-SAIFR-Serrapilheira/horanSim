@@ -1,4 +1,4 @@
-# HoranSim: simulation of a well-mixed Moran process with constant selection
+# MoranSim: simulation of a well-mixed Moran process with constant selection
 **Created by Lucas Alves de Melo Pontes**
 
 # Objective
@@ -22,7 +22,11 @@ endProject_compMethods/
 └── README.md
 ```
 The order of execution for the scripts is given by the script filenames inside the "R/" directory.
+
 "R_modules/" contains the modules required for the scripts in the "R/" directory.
+
 "data/" contains the tables obtained through the simulation.
+
 "docs/" contains the report file and its supporting files.
+
 "graph/" contains the generated graphs.
