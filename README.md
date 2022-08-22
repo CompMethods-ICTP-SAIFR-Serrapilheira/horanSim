@@ -30,3 +30,7 @@ The order of execution for the scripts is given by the script filenames inside t
 "docs/" contains the report file and its supporting files.
 
 "graph/" contains the generated graphs.
+
+# Required libraries
+
+The required libraries for this repository are: stringr, ggplot2, reshape2 e dplyr.
